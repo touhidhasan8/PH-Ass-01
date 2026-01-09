@@ -29,9 +29,7 @@ li a:hover {
 }
 
 .btn-1 {
-  padding: 10px;
-  width: 170px;
-  height: 50px;
+  padding: 15px;
   border-radius: 5px;
   background: #469165;
   color: #ffffff;
@@ -66,6 +64,9 @@ h1 {
   font-weight: 700;
   margin-bottom: 20px;
 }
+.middle-p {
+  line-height: 30px;
+}
 .section-mid {
   position: relative;
   height: 100%;
@@ -88,15 +89,19 @@ h1 {
   gap: 16px;
   font-size: 16px;
   margin-top: 10px;
+  /* line-height: 30px; */
 }
 .button-2 {
   display: flex;
   gap: 10px;
   background-color: #31a563;
+  justify-content: center;
+  align-items: center;
   padding: 16.5px;
   border-radius: 10px;
   cursor: pointer;
 }
+
 .button-2:hover {
   background: #409c68;
   color: bisque;
@@ -105,9 +110,11 @@ h1 {
   display: flex;
   gap: 10px;
   border: 1px solid white;
-  padding: 16.5px;
+  padding: 16px;
   cursor: pointer;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .button-3:hover {
   background: #676e6a;
@@ -115,3 +122,50 @@ h1 {
 }
 
 /* Card Sections  */
+.card {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  box-shadow: #676e6a;
+  padding: 120px ;
+}
+.section-title {
+  text-align: center;
+  padding-top: 40px;
+  color: #001931;
+  font-size: 43px;
+}
+.section-description {
+  font-size: small;
+}
+
+.feature-card {
+  background-color: #fff;
+  width: 320px;
+  height: 32;
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 50px;
+  border-radius: 10px;
+  justify-items: center;
+  justify-content: center;
+   box-shadow: 0 10px 25px rgba(37, 37, 37, 0.2);
+   border-radius: 10px;
+}
+
+.feature-icon {
+  background-color: #f95555;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.feature-card h3 {
+  padding-top: 10px;
+  font-size: 24px;
+  width: 300px;
+}
+.feature-card {
+  width: auto;
+  margin-top: 16px;
+}
+
