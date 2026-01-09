@@ -197,3 +197,60 @@ h1 {
   line-height: 16px;
 }
 
+.clg-container {
+  text-align: center;
+  font: bold;
+}
+
+.clg-title {
+  color: #001931;
+  font-size: 40px;
+}
+.clg-description {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #627382;
+}
+
+.clg-container {
+  background-color: #f7f6f2;
+  padding: 80px;
+  margin: 120px ;
+  border-radius: 10px;
+}
+
+.clg-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #31a563;
+  padding: 10px;
+}
+
+.clg-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.clg-buttons {
+  display: flex;
+  gap: 10px;
+  background-color: #31a563;
+  justify-content: center;
+  align-items: center;
+  padding: 16.5px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.clg-buttons:hover {
+  background: #409c68;
+  color: bisque;
+}
+.clg-last-tittle{
+  color: #627382;
+  padding-top: 16px;
+}
